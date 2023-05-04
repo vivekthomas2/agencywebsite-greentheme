@@ -1,0 +1,145 @@
+* {
+    margin: 4px;
+    font-family: serif;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.head_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: 500;
+    color: #1FD484;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    color: #12d67e;
+    margin-left: 12pxs;
+}
+
+.nav-links ul li {
+    padding: 12px;
+    font-size: 20px;
+}
+
+.nav-links ul li:hover {
+    cursor: pointer;
+    color: #07fb8d;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #1FD484;
+    border: 3px solid #1FD484;
+    padding: 10px;
+}
+
+.nav-links ul li a:hover {
+    background: #1FD484;
+    color: #fff;
+}
+
+.hero-txt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-img img {
+    width: 590px;
+    padding-top: 90px;
+}
+
+.txt {
+    padding-top: 160px
+}
+
+.txt h1 {
+    font-size: 65px;
+    color: #1FD484;
+}
+
+.txt p {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top:12px;
+}
+
+.pr_btn ul li {
+    padding-top: 54px;
+    font-size: 22px;
+    list-style: none;
+}
+
+.pr_btn ul li a {
+    text-decoration: none;
+    color: #1FD484;
+    border: 3px solid #1FD484;
+    padding: 20px;
+}
+
+.pr_btn ul li a:hover {
+    background: #1FD484;
+    color: #fff;
+}
+
+#values {
+    width: 100%;
+    height: 100vh;
+}
+
+.sec2_htxt {
+    color: #1FD484;
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 82px;
+    text-align: center;
+}
+
+.value_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.vltxt {
+    text-align: center;
+    padding-left:90px;
+    padding-top: 50px;
+}
+
+/* enter the code here*/
+
+.vl_img img {
+    width: 560px;
+}
+
+
+#services{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.sec_txt{
+    color: #1FD484;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.sr_container{
+    background:#07fb8d;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    
+}
